@@ -14,7 +14,7 @@ public class RespawnPlugin : BasePlugin
   public override void Load(bool hotReload)
   
        {
-            // Register a command handler for !respawn
+            
             CommandHandler.RegisterCommand("!respawn", RespawnCommandHandler);
         }
 
@@ -22,7 +22,7 @@ public class RespawnPlugin : BasePlugin
         {
            
             CounterStrikeAPI.Player.Respawn(); 
-            Console.WriteLine("Player respawned!");
+            
         }
     }
-}
+
